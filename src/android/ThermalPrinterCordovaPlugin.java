@@ -401,7 +401,7 @@ public class ThermalPrinterCordovaPlugin extends CordovaPlugin {
             return new EscPosPrinter(
                 deviceConnection,
                 data.optInt("printerDpi", 203),
-                (float) data.optDouble("printerWidthMM", 48f),
+                (float) data.optDouble("printerWidthMM", 80f),
                 data.optInt("printerNbrCharactersPerLine", 32),
                 charsetEncoding
             );
